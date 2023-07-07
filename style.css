@@ -1,0 +1,30 @@
+⦁ {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+#mydiv {
+	width: 200px;
+	height: 200px;
+	background-color: #ccc;
+}
+
+.target {
+	width: 200px;
+	height: 200px;
+	border: 2px dashed #ccc;
+	position: relative;
+	background-color: red;
+}
+img {
+	position: relative; /* Changed from absolute to relative */
+	width: 99%;
+	height: 100px;
+	cursor: move;
+	z-index: 100;
+}
